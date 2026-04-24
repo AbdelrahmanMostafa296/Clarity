@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    
 }
 
 .header{
@@ -223,4 +224,177 @@ header .box-img-decoration::before{
     color: #4A5565;
     max-width: 640px;
 
+}
+
+.service-card{
+    padding: 30px;
+    border: 1px solid #F3F4F6;
+    border-radius: 20px ;
+    transition: all 0.3s;
+}
+.service-card:hover {
+    transform: translatey(-5px);
+    box-shadow: 0px 10px 30px #ea5a0c14 ;
+}
+.service-card:hover .service-card-logo{
+    transform: scale(1.1 ,1.1);
+}
+
+.service-card:hover a i{
+    /* display: flex;
+   align-items: center;
+    gap: 10px; */
+    transform: translateX(5px);
+}
+
+.service-card-logo{
+    width: 64px;
+    height: 64px;
+    color:white;
+    background: linear-gradient(#FA8C38 ,#C94B13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+
+}
+
+.service-card-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #7C2D12;
+    margin-bottom: 20px;
+}
+.service-card-decs{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4A5565;
+    margin-bottom: 20px;
+}
+.service-card ul{
+margin-bottom: 20px;
+padding: 0;
+}
+.service-card ul li{
+     font-size: .875rem;
+    font-weight: 400;
+    color: #4A5565;
+    
+}
+
+.service-card ul li i{
+     color: #EA580C;
+     margin-right: 10px;
+}
+
+.service-card .list-style-card{
+    color: #EA580C;
+}
+.service-card a{
+    font-size:1rem ;
+    font-weight: 600;
+    color: #EA580C;
+    text-decoration: unset;
+    transition: all 0.3s;
+}
+
+.service-card a:hover{
+    color: #C6410C;
+}
+
+.service-card a i{
+    transition: all 0.3s;
+}
+
+.nav-pills{
+    border-bottom: 2px solid #E9EAEE;
+}
+
+.nav-pills .nav-item .nav-link{
+    color: #4A5565;
+    border-bottom: 2px solid transparent;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.nav-pills .nav-item .active{
+    color: #EA580C;
+    border-bottom: 2px solid #EA580C;
+    background-color: transparent;
+    border-radius: 0;
+}
+.tech-card{
+    padding: 30px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.tech-card:hover{
+    transform: translatey(-5px);
+    box-shadow: 0px 10px 20px rgba(128, 128, 128, 0.266);
+}
+
+.tech-card.blue{
+    background:linear-gradient( #EEF5FF ,#DCEAFE);
+}
+
+.tech-card.gray{
+    background:linear-gradient( #F9FAFB ,#F3F4F6);
+}
+.tech-card.green{
+    background:linear-gradient( #EFFDF4 ,#DCFCE7);
+}
+.tech-card.orange{
+    background:linear-gradient( #FFF6EB ,#FFEDD5);
+}
+
+.tech-card .tech-card-logo{
+    width: 64px;
+    height: 64px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 15px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.tech-card .tech-card-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #7C2D12;
+}
+
+.tech-card .tech-card-decs{
+    font-size: 1rem;
+    color: #4A5565;
+    margin-block: 15px;
+}
+
+.tech-card.blue .tech-card-logo{
+    background-color: #2B7FFF;
+}
+
+.tech-card.blue .tech-card-label{
+    color: #193CB8;
+    font-size: .75rem;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 5px 15px;
+    width: fit-content;
+    background-color: #DBEAFE;
+}
+
+.tech-card.gray .tech-card-logo{
+    background-color: #000000;
+}
+.tech-card.green .tech-card-logo{
+    background-color: #00C950;
+}
+.tech-card.orange .tech-card-logo{
+    background-color: #FF6900;
 }
