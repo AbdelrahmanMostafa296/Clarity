@@ -203,7 +203,7 @@
     </div>
   </header>
   <main>
-    <section class="our-services py-5">
+    <section class="section our-services pb-5">
       <div class="container">
         <div class=" d-flex flex-column align-items-center">
           <div class="section-name-style mb-3">
@@ -326,7 +326,7 @@
         </div>
       </div>
     </section>
-    <section id="technology" class="technology-stack py-5">
+    <section id="technology" class="section technology-stack pb-5">
       <div class="container">
         <div class="text-center ">
           <div class="section-name-style m-auto mb-3">
@@ -898,7 +898,7 @@
         </div>
       </div>
     </section>
-    <section id="testimonials" class="client-testimonials background-main-gradient  mt-5 py-5">
+    <section id="testimonials" class="section client-testimonials background-main-gradient  mt-5 pb-5">
       <div class="container">
         <div class="text-center ">
           <div class="section-name-style m-auto">
@@ -1111,7 +1111,7 @@
 
       </div>
     </section>
-    <section id="faq" class="faq py-5">
+    <section id="faq" class="section faq pb-5">
       <div class="container">
         <div class="text-center ">
           <div class="section-name-style m-auto">
@@ -1249,7 +1249,7 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="start-your-journey py-5 background-main-gradient">
+    <section id="contact" class="section start-your-journey pb-5 background-main-gradient">
       <div class="container">
         <div class="m-auto">
           <div class="section-name-style m-auto">
@@ -1338,23 +1338,22 @@
                   <div class="row mb-3">
                     <label class="form-label" for="project-budget-range">Project Budget Range</label>
                     <div class="col-12 col-sm-12 col-md-4">
-                      <div class="ready-budget-range">
-                        <span class="ready-budget-amount">$25K - $50K</span>
-                        <span class="ready-budget-type">Growth</span>
-                      </div>
+                      <input type="checkbox" id="growth" class="btn-check" autocomplete="off">
+                      <label class="btn ready-budget-range" for="growth"><span class="ready-budget-amount">$25K -
+                          $50K</span>
+                        <span class="ready-budget-type">Growth</span></label>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4">
-                      <div class="ready-budget-range">
-                        <span class="ready-budget-amount">$50K - $100K</span>
-                        <span class="ready-budget-type">Scale</span>
-                      </div>
+                      <input type="checkbox" id="scale" class="btn-check" autocomplete="off">
+                      <label class="btn ready-budget-range" for="scale"><span class="ready-budget-amount">$50K - $100K</span>
+                        <span class="ready-budget-type">Scale</span></label>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4">
-                      <div class="ready-budget-range">
-                        <span class="ready-budget-amount">$100K+</span>
-                        <span class="ready-budget-type">Enterprise</span>
-                      </div>
+                      <input type="checkbox" id="enterprise" class="btn-check" autocomplete="off">
+                      <label class="btn ready-budget-range" for="enterprise"><span class="ready-budget-amount">$100K+</span>
+                        <span class="ready-budget-type">Enterprise</span></label>
                     </div>
+                   
                   </div>
 
                   <div class="row mb-5">
@@ -1373,26 +1372,27 @@
               </form>
             </div>
             <div class="col-sm-12 col-lg-4 text-white transform-right-side p-5">
-              <div >
+              <div>
                 <h4 class="why-choose-clarity">Why Choose Clarity?</h4>
                 <div>
                   <div class="d-flex justify-content-center">
                     <div class="why-choose-clarity-icon"><i class="fa-solid fa-clock"></i></div>
-                    <div>
+                    <div class="hour-response">
                       <h5 class="why-choose-clarity-title">24-Hour Response</h5>
-                      <p class="why-choose-clarity-dscr">Quick turnaround on all inquiries with detailed project analysis</p>
+                      <p class="why-choose-clarity-dscr">Quick turnaround on all inquiries with detailed project
+                        analysis</p>
                     </div>
                   </div>
                   <div class="d-flex justify-content-center">
                     <div class="why-choose-clarity-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                    <div>
+                    <div class="hour-response">
                       <h5 class="why-choose-clarity-title">100% Satisfaction</h5>
                       <p class="why-choose-clarity-dscr">Money-back guarantee if you're not completely satisfied</p>
                     </div>
                   </div>
                   <div class="d-flex justify-content-center">
                     <div class="why-choose-clarity-icon"><i class="fa-solid fa-users"></i></div>
-                    <div>
+                    <div class="hour-response">
                       <h5 class="why-choose-clarity-title">Expert Team</h5>
                       <p class="why-choose-clarity-dscr">150+ certified professionals with 8+ years experience</p>
                     </div>
@@ -1401,10 +1401,13 @@
                 <div class="direct-contact">
                   <div>
                     <h5 class="direct-contact-title">Direct Contact</h5>
-                    <div >
-                      <div class="contact-list-number"><i class="fa-solid fa-phone"></i><span>+1 (555) 123-4567</span></div>
-                      <div class="contact-list-number"><i class="fa-solid fa-envelope"></i><span>hello@clarity.com</span></div>
-                      <div class="contact-list-number"><i class="fa-solid fa-location-dot"></i> <span>San Francisco, CA</span></div>
+                    <div>
+                      <div class="contact-list-number"><i class="fa-solid fa-phone"></i><span>+1 (555) 123-4567</span>
+                      </div>
+                      <div class="contact-list-number"><i
+                          class="fa-solid fa-envelope"></i><span>hello@clarity.com</span></div>
+                      <div class="contact-list-number"><i class="fa-solid fa-location-dot"></i> <span>San Francisco,
+                          CA</span></div>
                     </div>
                   </div>
                 </div>
@@ -1418,36 +1421,38 @@
   </main>
   <footer class="footer">
     <div class="container">
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-        <div class="d-flex">
-        <div class="hero-page-logo-footer d-flex justify-content-center align-items-center"><i class="fa-solid fa-cube"></i>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="d-flex">
+            <div class="hero-page-logo-footer d-flex justify-content-center align-items-center"><i
+                class="fa-solid fa-cube"></i>
+            </div>
+            <span class="footer-clarity">Clarity</span>
           </div>
-          <span class="footer-clarity">Clarity</span>
-          </div>
-          <p class="footer-descr">Transforming businesses through innovative digital solutions and cutting-edge technology.</p>
-      </div>
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-        <div class="social-media-logos-place">
-        <div class="social-media-logos-footer"><i class="fa-brands fa-linkedin"></i></div>
-        <div class="social-media-logos-footer"><i class="fa-brands fa-twitter"></i></div>
-        <div class="social-media-logos-footer"><i class="fa-brands fa-github"></i></div>
-        <div class="social-media-logos-footer"><i class="fa-solid fa-basketball"></i></div>
+          <p class="footer-descr">Transforming businesses through innovative digital solutions and cutting-edge
+            technology.</p>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="footer-rights-reserved-place">
-          <p class="footer-rights-reserved">© 2025 Clarity. All rights reserved.</p>
-          <div>
-            <span class="made-with">Made with</span>
-            <i class="fa-solid fa-heart made-with-heart"></i>
-            <span class="made-with">for amazing experiences</span>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="social-media-logos-place">
+            <div class="social-media-logos-footer"><i class="fa-brands fa-linkedin"></i></div>
+            <div class="social-media-logos-footer"><i class="fa-brands fa-twitter"></i></div>
+            <div class="social-media-logos-footer"><i class="fa-brands fa-github"></i></div>
+            <div class="social-media-logos-footer"><i class="fa-solid fa-basketball"></i></div>
           </div>
         </div>
       </div>
-    </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="footer-rights-reserved-place">
+            <p class="footer-rights-reserved">© 2025 Clarity. All rights reserved.</p>
+            <div>
+              <span class="made-with">Made with</span>
+              <i class="fa-solid fa-heart made-with-heart"></i>
+              <span class="made-with">for amazing experiences</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 

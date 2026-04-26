@@ -18,6 +18,10 @@
     background-color: #C0450B;
 }
 
+.section{
+    padding-top: 184px;
+}
+
 nav .container a .hero-page-logo{
     width: 35px;
     height: 35px;
@@ -734,10 +738,13 @@ form .input-text{
     padding: 15px;
     cursor: pointer;
     transition: all 0.2s;
-}
+}   
+
+.btn-check:checked+.btn,
 .ready-budget-range:hover{
       border: 2px solid #EA580C;
       background-color: #FEF6F3;
+      border-color: #EA580C;
 }
 
 .ready-budget-range:hover .ready-budget-amount{
@@ -780,6 +787,9 @@ form .input-text{
 .transform-right-side{
     background:linear-gradient(135deg, #BB470A ,#d34e0c ,#C2410C);
 }
+.hour-response{
+    width: calc(100% - 40px);
+}
 
 .why-choose-clarity{
     margin-bottom: 50px;
@@ -813,6 +823,7 @@ form .input-text{
     margin-block: 40px;
     border-top: 1px solid rgba(189, 147, 147, 0.625);
 }
+
 
 .direct-contact-title{
     font: 16px;
@@ -899,4 +910,19 @@ form .input-text{
 }
 .made-with-heart{
     color: #EA580C;
+}
+
+
+@media screen and (min-width:460px) {
+    nav div div ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav div div ul li a{
+        
+        text-align: center;
+        margin: 30px;
+    }
 }
